@@ -1,0 +1,9 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="spinner_style" >
+        <item name="android:textSize">4sp</item>
+    </style>
+
+
+</resources>

@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+    <include layout="@layout/title"/>
+
+    <ScrollView
+        android:id="@+id/fangwenfeilvbing"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="315dp"
+                android:layout_height="50dp"
+                android:text="李副校长一行访问菲律宾亚典耀大学"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        10月8日-12日，李副校长一行访问菲律宾亚典耀大学，出席亚典耀大学孔子学院年度理事会及其成立十周年的庆典活动。
+                \n        期间，亚典耀大学校长Jose Ramon T. Villarin, S.J.神父、我校颜光美副校长和理事会中外方成员共同出席了孔子学院年度理事会，听取孔院年度工作报告。颜副校长充分肯定了亚典耀孔子学院的建设发展，赞扬了孔子学院中外方人员为对外汉语教育事业的辛勤付出。在孔子学院多年努力下，亚典耀大学于2016年设立国际汉语教育硕士项目，成为菲律宾唯一一个国际汉语教育硕士专业。
+                \n        今年适逢亚典耀大学孔子学院成立十周年，来自中国国内及菲律宾当地的逾600名观众参加了孔院举行的庆典音乐会。颜光美副校长代表中山大学罗俊校长宣读贺词，并将中山大学姚友毅教授专门创作的画作《岭南春色》赠予亚典耀大学孔子学院。颜副校长还与我校派往亚典耀大学孔子学院的17名志愿者进行了亲切交流。
+"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:src="@drawable/fangwenfeilvbing1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"
+                android:text="亚典耀大学孔子学院2016年度理事会参会人员"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        之后，颜光美副校长访问了菲律宾圣名大学。亚典耀大学孔子学院在圣名大学的汉语教学点将于2016年11月开始运作。
+                \n        陪同颜光美副校长访问亚典耀大学的有我校国际汉语教材研发与培训基地主任周小兵，外国语学院副院长张世涛，国际合作与交流处副处长、孔子学院办公室常务副主任古文力等。
+                \n相关背景：
+\n        我校与亚典耀大学于2006年正式建立合作关系，同年10月，亚典耀大学孔子学院挂牌成立，为我校在海外合作共建的第一所孔子学院，也是菲律宾第一所孔子学院。其一直发挥着中菲友谊桥梁的作用，如今已在菲律宾各界具有广泛影响力。
+"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/huijianzhuxi"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="315dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="李萍副书记会见法国普罗旺斯—阿尔卑斯—蓝色海岸大区主席一行"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        10月19日，学校党委副书记李萍在广州校区南校园中山楼贵宾厅会见法国普罗旺斯—阿尔卑斯—蓝色海岸大区主席埃斯特罗斯一行。
+                \n        李萍副书记欢迎埃斯特罗斯主席一行来访我校，并向主席介绍了我校未来发展概况和我校与法国高校合作交流情况。她表示，我校与法国普罗旺斯—阿尔卑斯—蓝色海岸大区的高校已有良好的合作基础，希望未来双方能开展更多双赢的合作与交流项目。
+                \n        埃斯特罗斯主席感谢我校的接待，主席先生表示，法国普罗旺斯—阿尔卑斯—蓝色海岸大区的高校各有优势，希望能推动大区的高校与中山大学合作，并且非常支持大区所有大学的学生前来中大学习及中大的学生前往大区大学学习。
+"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:src="@drawable/huijianzhuxi1"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        我校旅游学院副院长罗秋菊教授，药学院杨得坡教授，国际合作与交流处处长赵勇及法国驻广州总领事傅杰伟先生等也参加了会面"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/hanguodaxue"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="315dp"
+                android:layout_height="50dp"
+                android:text="韩国高丽大学副校长来访我校"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="         5月28日上午，韩国高丽大学国际事务副校长金善赫（Sunhyuk Kim）一行来访我校，朱熹平副校长在A楼贵宾厅与来宾进行了会面。我校政治与公共事务管理学院副院长郭忠华、国际合作与交流处副处长徐瑶等陪同出席了会谈。"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/hanguodaxue1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:text="朱熹平副校长会见韩国高丽大学国际事务副校长金善赫（Sunhyuk Kim）"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        朱熹平对金善赫一行表示热烈欢迎，并简要介绍了我校在国际合作方面的情况。朱熹平表示，高丽大学与我校一直保持友好关系，学生交流项目的合作自2005年起有序稳定进行。希望在此基础上，两校能深化已有的合作，同时扩大合作的领域。
+                \n        金善赫表示很高兴到访我校，并介绍了高丽大学的总体情况。他表示，今年3月该校新一届领导团队就任后，特别关注与中国大学的合作交流，并将我校作为其在中国南部战略合作伙伴。他希望借此次会面，在现有合作基础上拓宽两校间的合作领域，加强各领域院系间的合作交流以及两校学者的交流互访。
+                \n        金善赫与郭忠华也进行了座谈，双方就如何深化两校院系间的合作进一步交换了意见。
+                \n        高丽大学创建于1905年，是韩国一所集理工、文学、艺术、商学和医学等多种学科于一体的私立研究性综合大学。2005年6月，我校与高丽大学签署校级交流协议，每年互派5名学生交流学习。两校的学生交换项目于2006年2月开始。金善赫教授于今年3月起担任高丽大学国际事务副校长，此次为首次访问我校。
+"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

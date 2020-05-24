@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.schoolapp">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        >
+        <activity android:name=".Activity.login.Activity_login" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activity.personal.Activity_collection" />
+        <activity android:name=".Activity.personal.Activity_editinformation" />
+        <activity android:name=".Activity.personal.Activity_set" />
+        <activity android:name=".Activity.personal.Activity_studentinformation" />
+        <activity android:name=".Activity.Activity_alluse" />
+        <activity android:name=".Activity.personal.Activity_message" />
+        <activity android:name=".Activity.Activity_newsdetails" />
+        <activity android:name=".Activity.Activity_data" />
+        <activity android:name=".Activity.Activity_adddata" />
+        <activity android:name=".Activity.student.Activity_grades" />
+        <activity android:name=".Activity.student.Activity_stuwatch" />
+        <activity android:name=".Activity.student.Activity_lecture" />
+        <activity android:name=".Activity.student.Activity_lecturedetails" />
+        <activity android:name=".Activity.student.Activity_game" />
+        <activity android:name=".Activity.student.Activity_achievement" />
+        <activity android:name=".Activity.student.Activity_corporation" />
+        <activity android:name=".Activity.student.Activity_gamedetails" />
+        <activity android:name=".Activity.Activity_cordetails" />
+        <activity android:name=".Activity.g_news.Activity_gnewsdetailsone" />
+        <activity android:name=".Activity.personal.Activity_changesize" />
+        <activity android:name=".Activity.personal.Activity_aboutus" />
+        <activity android:name=".Activity.personal.Activity_feedback" />
+        <activity android:name=".Activity.Activity_search" />
+        <activity android:name=".Activity.g_news.Activity_gnewsdetailstwo" />
+        <activity android:name=".Activity.g_news.Activity_gnewsdetailsthree" />
+        <activity android:name=".Activity.g_news.Activity_gnewsdetailsfour" />
+        <activity android:name=".Activity.login.Activity_gesture" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".Activity.login.Activity_gesturelog" />
+        <activity android:name=".Activity.login.Activity_gesturetwo" />
+        <activity android:name=".Activity.student.Activity_sch" />
+        <activity android:name=".Activity.student.Activity_maj" />
+        <activity android:name=".Activity.login.Activity_identity" />
+        <activity android:name=".Activity.login.Activity_waitrespon" />
+        <activity android:name=".Activity.student.Activity_timetable" />
+        <activity android:name=".Activity.personal.Activity_messagedetails" />
+        <activity android:name=".Activity.Activity_collectiondetails" />
+    </application>
+
+</manifest>

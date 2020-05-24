@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <include layout="@layout/title_two"/>
+    <ScrollView
+        android:id="@+id/yiwenhuaren"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:paddingLeft="30dp"
+        android:paddingRight="30dp"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:layout_width="315dp"
+            android:layout_height="50dp"
+            android:text="以文化人 涵育新风——我校多举措贯彻落实高校思想政治工作会议精神"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:lineSpacingExtra="8dp"
+            android:text="        习近平总书记在全国高校思想政治工作会议上指出，要注重以文化人以文育人，广泛开展文明校园创建，开展形式多样、健康向上、格调高雅的校园文化活动，广泛开展各类社会实践。
+         \n        A大学始终坚持立德树人，以价值塑造为导向，以全才教育为理念，构建和拓展文化育人新平台。近年来，学校整合校内外文化资源，全力打造“艺术课堂”新型平台载体，以“有思想、有内涵、有趣味、有效果”为目标，整体规划活动的内容与形式，用学生喜闻乐见的艺术表达，提高大学生思想文化艺术修养，实现了以文化人的良好教育效果。
+"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:src="@drawable/yiwenhuaren1"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="12sp"
+            android:text="激活沉睡的文化资源"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:lineSpacingExtra="8dp"
+            android:text="        徐秀棠的“两袖清风”泥塑、汪寅仙的“神鸟出林壶”、顾绍培的“双百福寿瓶”……近日，A大学美术馆内展出的16位紫砂艺术大师制作的40余件（套）紫砂精品，以其精湛的技艺、巧妙的构思以及独特的艺术美感，令慕名前来参观的观众大饱眼福。艺术馆还定期举办艺术展和专题艺术讲座，让师生近距离感受大师的工匠精神，品味艺术精髓。
+        \n        从弘扬核心价值观出发，紧扣学生需求，不断激发学生兴趣。2015年12月起，学校启动“艺术课堂”文化品牌打造，广邀知名艺术家和专业教师走进学校，带领A学子体验美的旅程，感受艺术魅力，传承江南文化，塑造江南品格。除了各类文化展出和专题讲座之外，“课堂+舞台”形式的“艺术课堂”也受到广泛欢迎。在文化通识教育课堂讲学的过程中，插入艺术表现形式，通过现场示范、专题讲解、片段重现等手段，综合运用音乐、舞蹈、戏剧、讲演、诗歌等生动活泼的表现手法，普及传授思想文化艺术知识，在教与学的双向互动中，激发学生参与、探索、思考的热情。
+        \n        今年，学校在“艺术课堂”原有项目形式逐渐成熟和长期推进基础上，进一步拓展内涵、丰富载体、整合资源，推出“艺术课堂”大学生艺术素质拓展系列项目，将文化艺术活动贯穿到江南人的日常生活中。目前，学校已举办了“与信仰对话——流行歌曲中的大爱情怀”、“走进中国民族民间舞蹈”赏析讲座、“乐吟江南——古诗词赏析演唱会”等“艺术课堂”，今后，“器乐课堂室内乐重奏”名曲鉴赏、“非遗项目展示：刺绣旗袍艺术秀”、“古代器物与现代紫砂展”等项目也将一一揭开神秘面纱，为江南师生奉献多场文化艺术盛宴。
+"
+            android:textSize="15sp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="180dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/yiwenhuaren2"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:textSize="12sp"
+            android:text="强化实践的“第二课堂”"/>
+    </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/shijianguji"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="10dp">
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:text="“实践及国际课程周”盛大开幕"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:src="@drawable/shijianguoji1"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        7月2日晚，A大学2017年“实践及国际课程周”（UIP）在江安校区体育馆盛大开幕。来自牛津大学、哈佛大学、哥伦比亚大学、斯坦福大学、芝加哥大学、伦敦大学玛丽皇后学院、伦敦政治经济学院、新加坡国立大学、筑波大学等27个国家和地区的120多所世界一流大学的200多位教授和近500名学生，与A大师生共同见证了这一激动人心的时刻。A大学党委书记王国、校长谢平等全体校领导，以及学校有关单位负责人参加了开幕式。副校长王世经主持开幕式。
+        \n        英国伦敦大学玛丽皇后学院校长Simon Gaskell作为国际代表首先发言，他表示，A大学“实践与国际课程周”（UIP）增强了学校间和学生间的国际理解与交流，促进了多学科的交叉融合，淡化了教学与研究的界限，对参加的师生来说是一次自我发现之旅。美国芝加哥大学教授Scott Alan Snyder表示A大的UIP项目是一个很好的平台，能够推动教学和科研的国际化合作。比利时根特大学教授Michael FrÖmmel表示，A大UIP项目让参加的师生不用全世界各地跑就能与世界各地的诸多教授一起交流。美国哈佛大学青年教师代表Teresa Chahine在发言中强调，A大学的创新创业教育成果丰硕，整个校园充满创新创业氛围，UIP项目的举办有利于开拓了学生眼界，激发了学生创新思维。
+        \n        国际学生代表、哈佛大学学生Perry Arrasmith表示，哈佛大学以及世界上其他大学的学生源源不断造访A大学，将促进中国与世界各国的文化交流，密切各国青年人之间的交往，深化彼此的理解与互信。A大吴玉章学院学生代表陈雨晴，代表A大学子欢迎来自世界各地的老师和同学们，期待未来的两周能与大家一起交流思想，激发灵感，共襄盛举。
+"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:src="@drawable/shijianguoji2"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        随后，王建国代表学校将2017年“实践及国际课程周”活动旗帜和A大学校旗授给了来自哈佛大学的Gopalan Jayant Raja同学和来自A大学吴玉章学院的淡雅同学，并宣布2017年“实践及国际课程周”正式启动。"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/shijianguoji3"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="       据悉，未来两周来自美国、英国、法国等27个国家和地区的120多所世界一流大学的200多名教授和专家，将为A大师生开设250门全英文国际课程和多场学术讲座。讲授内容涵盖文理工医多个学科门类，既有专业前沿资讯，也有丰富多彩的通识课程，将全方位满足不同学生的多样化需求。同时，A大学还将开展一系列丰富多彩的国际交流营实践项目，届时学校30个学院、单位将开设32个不同主题的“国际交流营”活动，近500名国际学生将与A大学子交流互动、共享知识与文化的饕餮盛宴。"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/shijianguoji4"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/lideshuren"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="30dp"
+                android:text="分层研学，凝聚共识"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        及时传达会议精神。全国高校思想政治工作会议召开以后，学校于12月12日迅速召开党委常委会，传达学习习近平总书记重要讲话精神和思政工作会议精神并专题研究加强和改进我校思想政治工作的举措。随后，学校又先后多次召开校党委中心组（扩大）会议、思想政治工作专题研讨会等，传达学习会议精神，部署落实学校贯彻落实会议精神的工作方案。
+        \n        层层推动学习贯彻。2016年12月16日，学校专门印发通知，根据教育部党组的统一要求，进一步部署全校学习贯彻落实会议精神，并先后召开了二级单位党组织书记会议、学生工作会议、关工委会议等，专题部署学习宣传、贯彻落实会议精神。
+        \n        网上网下聚力宣传。会后，各条线各单位广泛组织开展学习宣传教育，依托党委中心组学习、党委会、支部组织生活会、教职工大会、团学活动和融合式讨论等形式，通过各种多媒体手段，加大学习宣传力度。在全国高校思想政治工作会议一结束，学校新闻网和校园微信公众号连续刊发撰文，反映师生对思政工作会议的感想和热议。《光明日报》、教育部官微《微言教育》多次刊登报道我校师对于习总书记重要讲话和思政工作会议精神的学习感悟。
+"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:src="@drawable/lideshuren1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"
+                android:text="1月4日党委中心组理论学习（扩大）会议现场"/>
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="30dp"
+                android:layout_marginTop="15dp"
+                android:text="推动落实，形成合力"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        推进思政课程向课程思政发展。为提升思政课程内涵，推进思政理论课教学创新，加强思政课程建设，学校进一步深化思政课教育教学改革，同时全面落实思政理论课听课巡课制度，对思想政治理论课进行集体备课和全面听课，共同研讨提高课程教学质量，同时为进一步强化思政课实践环节提供经费保障。校党委书记朱拓于“五四”前夕走进思想政治理论课课堂，为青年大学生讲授形势与政策课《与青年谈信仰》，进行了一次创新形势与政策课教学方式的实践。同时，进一步发掘各类课程的思政资源，引导教师站稳讲台，教书育人，并面向2016级学生全面开设了《中国经典名著选读》等系列通识教育选修课。
+        \n        推动文化育人与实践育人并进。为坚持思想引领，学校注重将理想信念教育溶入校园文化建设、融入实践教育环节。“艺术课堂”系列活动、第十四届读书文化节、“江南之春”文化艺术节、大学生网络文化节，春天的校园异彩纷呈，营造了“书香校园，人文江南”的浓郁文化氛围。同时，学校大力推进实践育人，在形势政策课实践教学环节开设“焦点论坛”，先后邀请无锡市公安局经侦支队副大队长武伟警官、解放军国际关系学院刘强教授与大学生面对面交流；为贯彻落实教育部关于第三届“互联网+”大学生创新创业大赛有关文件精神，学校于4月12日召开工作部署会，相关职能部门负责人就如何做好本次大赛工作、挖掘更多优秀参赛作品进行了讨论，提出了意见和建议。
+        \n        探索大学生思想政治工作创新模式。2016年12月19日，学生工作处邀请苏州大学苏南地区大学生心理健康教育研究中心专职副主任王静来校开展师生快乐沟通心理剧工作坊；3月31日，校园文化脱口秀《宝哥说》第六期开讲，唐忠宝老师与同学们聊“‘萨德事件’众生相”，引发学子热情参加，这是我校在大学生思想政治工作的创新与探索。同时，学校切实加强辅导员队伍建设。通过理论学习、培训交流、科学研究及实践锻炼，利用“辅导员微课堂”、“以案论道”工作坊、“辅导员微思享”等线上线下平台，不断提升辅导员队伍专业化、职业化水平。
+"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/lideshuren2"/>
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/xueshengtufa"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="320dp"
+                android:layout_height="50dp"
+                android:text="我校召开学生突发事件预防与应对专题研讨会"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        为提高我校突发事件应对能力，构建平安和谐校园，5月14日，江南大学学生突发事件预防与应对专题研讨会在行政楼B305召开。校党委副书记、纪委书记周小浦，党办、校办、宣传部、学工部、团委、保卫处、研究生院等职能部门负责人和各学院党委副书记参加了本次研讨会。会议由校长助理、学生工作部部长崔宝同主持。
+        \n        研讨会上，部分学院分别结合具体工作案例介绍了突发事件的应对方案、采取措施、处理情况等，并就如何防范和正确处理提出了意见和建议。随后，会议围绕“如何预防和应对突发事件”展开进一步讨论，主要从处理原则、处理方式以及注意事项等方面进行了交流，一致认为突发事件处理过程中要严格按章办事，合理处理情与法的关系；及时启动应急预案，开展快速、准确、全面的情况调查，畅通沟通渠道，加强后续师生心理援助与辅导；同时还要大力排查安全隐患，加强日常安全教育，提高大学生安全意识。
+        \n        校党委副书记、纪委书记周小浦作重要讲话。他强调，各学院、各部门要切实增强突发事件预防意识，将预防与处理相结合，完善预警防控机制；健全突发事件应对工作机制，合理分工、协同配合，提高突发事件应急处理能力。他希望各学院、各部门积极学习优秀经验与做法，进一步增强责任意识和工作预见性，保持底线思维，营造安全和谐的校园育人环境。
+"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:src="@drawable/xueshengtufa1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"
+                android:text="研讨会现场"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/xueshengtufa2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"
+                android:text="校党委副书记、纪委书记周小浦讲话"/>
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/daibiaodahui"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="315dp"
+                android:layout_height="50dp"
+                android:text="中国共产党A大学第八次代表大会隆重召开"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:src="@drawable/daibiaodahui1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        6月23日上午，中国共产党A大学第八次代表大会在江校区演播厅举行。上午9时，大会在雄壮的国歌声中隆重开幕。
+        \n        本次大会以“全面推进学校党的建设新的伟大工程和建设世界一流大学新的伟大事业”为主题，主要任务是：高举中国特色社会主义伟大旗帜，深入学习贯彻习近平总书记系列重要讲话精神和治国理政新理念新思想新战略，回顾总结学校第七次党代会以来的工作，科学谋划学校党的建设新的伟大工程和建设世界一流大学新的伟大事业的奋斗目标、主要任务和重要举措，选举产生新一届中共A大学委员会和纪律检查委员会，团结带领全校党员干部和师生员工为建设具有中国特色、A大风格的世界一流大学而努力奋斗！
+        \n        教育部高校学生司司长王辉，中共A省委教育工作委员会书记、A省教育厅厅长朱世宏等领导出席了开幕式。本次大会应到正式代表292名，实际到会代表280名，符合开会法定人数。特邀来宾、校内特邀嘉宾、列席代表参加了大会开幕式。大会秘书长李旭锋同志主持了开幕式。
+"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:src="@drawable/daibiaodahui2"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/qiyidangke"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="315dp"
+                android:layout_height="50dp"
+                android:text="我校举行“七一”专题党课报告会"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        在建党96周年即将来临之际，6月28日下午，我校在报告厅举行了“七一”专题党课报告会。校党委书记朱同志主讲了题为《千磨万击还坚劲、万紫千红总向春——坚守共产党人的信仰、信念、信心》的党课。各二级党组织书记、党委秘书，党群部门中层干部以及全体师生党支部书记等240余人参加会议。
+\n        在党课报告中，朱从信仰、信念与信心的关系及其功能讲起，围绕坚持马克思主义信仰、坚定中国特色社会主义信念、坚持四个自信、牢固树立四个意识等四个方面展开，作了一场既有理论高度、又有实践意义的专题党课报告。他系统阐述了马克思主义理论体系、共产党人的理想信念与价值追求，以及中国特色社会主义的伟大实践。
+\n        他强调，对马克思主义的信仰，坚定中国特色社会主义信念，是共产党人的政治灵魂，是共产党人经受住任何考验的精神支柱。我们要始终坚持“四个自信”，激发创建“双一流”信心。“双一流”是中国特色的一流，是培养人才的一流，是科技创新的一流，是大学文化的一流。学校要立足工作实际，紧抓“双一流”建设机遇，超前谋划，早部署，早行动，加强“双一流”建设顶层谋划和推进实施。当前，全校党员干部、师生员工要贯彻中组部中宣部教育部《关于认真贯彻习近平总书记重要指示广泛开展向黄大年同志学习活动的通知》精神，以“立德树人”为根本，坚持做共产主义远大理想和中国特色社会主义共同理想的坚定信仰者和忠实践行者。
+\n        他要求，广大党员要全面理解马克思主义政党讲政治的深刻内涵，增强“四个意识”，旗帜鲜明讲政治，着力加强政治建设，开展严肃认真的党内政治生活，营造风清气正的党内政治生态，建设先进健康的党内政治文化。广大党员要坚持不懈抓好思想政治建设，提高政治能力，做到忠诚干净担当，在“学”上下功夫、在“谋”上动脑筋、在“实”上出真招、在“争”上求主动、在“稳”上作文章，保持和发扬共产党人的优良传统，焕发出干事创业的饱满热情，振奋精神、务实工作，以优异的成绩庆祝中国共产党成立96周年，迎接党的十九大胜利召开！
+"
+                android:textSize="15sp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

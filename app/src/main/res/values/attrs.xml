@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--设置字体大小控件-->
+    <declare-styleable name="SetTextSizeView">
+        <attr name="lineWidth" format="dimension|reference" />
+        <attr name="lineColor" format="color|reference" />
+        <attr name="totalCount" format="integer" />
+        <attr name="circleColor" format="color|reference" />
+        <attr name="circleRadius" format="dimension|reference" />
+
+
+    </declare-styleable>
+
+
+    <declare-styleable name="GestureLockViewGroup">
+        <attr name="color_no_finger_inner_circle" format="color" />
+        <attr name="color_no_finger_outer_circle" format="color" />
+        <attr name="color_finger_on" format="color" />
+        <attr name="color_finger_up" format="color" />
+        <attr name="count" format="integer" />
+        <attr name="tryTimes" format="integer" />
+        <attr name="background_gesture" format="color" />
+    </declare-styleable>
+</resources>

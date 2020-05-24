@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_horizontal"
+    android:background="@color/white">
+
+    <ProgressBar
+        android:id="@+id/mProgressBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:max="100"
+        android:progress="0"
+        />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="100dp"
+        android:src="@drawable/waitrespon1"/>
+
+    <TextView
+        android:id="@+id/wait_text"
+        android:layout_width="190dp"
+        android:layout_height="80dp"
+        android:text="正在等待校方验证\n\n请稍等"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:textSize="20sp"/>
+
+
+    <Button
+        android:id="@+id/next_button"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="90dp"
+        android:text="下一步"
+        android:background="@drawable/r_corner_button3"
+        android:textSize="23sp" />
+</LinearLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+   android:gravity="center_horizontal"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:gravity="center">
+       <ImageView
+           android:layout_width="105dp"
+           android:layout_height="105dp"
+           android:layout_gravity="center"
+           android:src="@drawable/logo"
+           android:id="@+id/roundedImageView_three" />
+        </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/phone_num"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="1">
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_marginLeft="10dp"
+                android:src="@drawable/register"/>
+
+            <EditText
+                android:id="@+id/phonum"
+                android:layout_width="250dp"
+                android:layout_height="50dp"
+                android:background="@null"
+                android:inputType="phone"
+                android:textCursorDrawable="@drawable/edit_cursor_color"
+                android:hint="请输入手机号"
+                android:singleLine="true"
+                android:textSize="18sp" />
+        </LinearLayout>
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:src="@drawable/line"/>
+        <LinearLayout
+            android:id="@+id/num"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:paddingLeft="10dp"
+            android:paddingRight="10dp"
+            android:layout_weight="1">
+            <ImageView
+                android:layout_marginLeft="10dp"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/msg"/>
+
+            <EditText
+                android:id="@+id/answer"
+                android:layout_width="200dp"
+                android:layout_height="50dp"
+                android:background="@null"
+                android:inputType="number"
+                android:textCursorDrawable="@drawable/edit_cursor_color"
+                android:hint="请输入验证码"
+                android:singleLine="true"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/sendmsg"
+                android:layout_width="80dp"
+                android:layout_height="55dp"
+                android:gravity="center"
+                android:textSize="12sp"
+                android:text="发送验证码"/>
+        </LinearLayout>
+    </LinearLayout>
+    
+    <Button
+        android:id="@+id/register_b"
+        android:layout_width="280dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="80dp"
+        android:text="注    册"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:background="@drawable/r_corners_register"/>
+
+    <TextView
+        android:id="@+id/log_text"
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:textColor="@color/me_blue"
+        android:text="登  录"/>
+
+
+
+
+
+</LinearLayout>

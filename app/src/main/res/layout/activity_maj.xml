@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title" />
+
+    <ScrollView
+        android:id="@+id/seedesign"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/maj2" />
+
+                <TextView
+                    android:layout_width="180dp"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:text="视觉传达设计专业"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity=""
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/maj11" />
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:text="近三年就业率:"
+                    android:textColor="#f95050"
+                    android:textSize="17sp" />
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="5dp"
+                        android:text="2014年96.69%；2015年98.36%；"
+                        android:textColor="#f68888"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="5dp"
+                        android:text="2016年100%"
+                        android:textColor="#f68888"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:lineSpacingExtra="10dp"
+                android:padding="25dp"
+                android:text="        本专业旨在培养面向未来、具有熟练掌握视觉传达设计语言，能够在平面媒体与新数字媒体上进行视觉设计创作、开发以及设计研究能力的高级综合性人才。本专业学生在校期间需掌握全面的视觉传达设计理论知识与较强的实践能力，具备扎实的专业知识与素养，能够独立进行视觉传达设计及研究的能力。视觉传达设计专业分为平面设计和数字媒体设计两个培养方向。
+        \n        主要专业课程：平面设计培养方向：品牌设计、信息设计、书籍设计、包装设计、海报设计、标志设计等；数字媒体设计培养方向：交互设计、互动媒体设计、数字插画、数字媒体技术、信息设计、动效设计等。
+        \n        报考要求：本专业为美术类专业，报考该专业的考生须参加当年的招生专业考试且成绩合格。
+        \n        择业去向：互联网公司、交互及软件公司、品牌设计与广告公司、文化创意与传播公司、高等院校、媒体、报纸杂志社等相关事业单位及各类创新创业型公司的设计部门。
+"
+                android:textSize="17sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/endesign"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:src="@drawable/maj2" />
+
+                <TextView
+                    android:id="@+id/textView19"
+                    android:layout_width="180dp"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:text="环境设计专业"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="7dp"
+                android:gravity=""
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="15dp"
+                    android:src="@drawable/maj11" />
+
+                <TextView
+                    android:layout_width="110dp"
+                    android:layout_height="35dp"
+                    android:gravity="center"
+                    android:text="近三年就业率:"
+                    android:textColor="#f95050"
+                    android:textSize="17sp" />
+
+                <LinearLayout
+                    android:layout_width="200dp"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="5dp"
+                        android:text="2014年96.69%；2015年98.36%；"
+                        android:textColor="#f68888"
+                        android:textSize="12sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="15dp"
+                        android:layout_marginTop="10dp"
+                        android:paddingLeft="5dp"
+                        android:text="2016年98.72%"
+                        android:textColor="#f68888"
+                        android:textSize="12sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:lineSpacingExtra="10dp"
+                android:padding="25dp"
+                android:text="        本专业旨在培养具有进行建筑、景观、室内设计开发能力的专业高级人才。本专业学生在校学习期间掌握较全面的建筑环境设计理论知识并具备较强的实践能力，具有扎实的专业知识和专业素养，具备独立进行建筑、景观、室内设计和研究的工作能力。环境设计专业分为室内与建筑设计、景观设计等培养方向。
+                \n        主要专业课程：室内与建筑设计方向：室内设计、建筑设计、展示设计、居住区规划设计；景观设计方向：景观设计、园林工程、居住区景观设计、城市公共空间、生态设计、植物配置等。
+                \n        报考要求：本专业为美术类专业，报考该专业的考生须参加当年的招生专业考试且成绩合格。
+                \n        择业去向：高等院校、规划部门、建筑工程公司、建筑设计院、景观设计院、室内设计公司及有关房地产开发公司等。
+"
+                android:textSize="17sp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

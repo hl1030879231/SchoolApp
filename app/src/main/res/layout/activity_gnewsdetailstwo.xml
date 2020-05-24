@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_two"/>
+
+    <ScrollView
+        android:id="@+id/fangwenfeilvbing"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="315dp"
+                android:layout_height="50dp"
+                android:text="李副校长一行访问菲律宾亚典耀大学"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        10月8日-12日，李副校长一行访问菲律宾亚典耀大学，出席亚典耀大学孔子学院年度理事会及其成立十周年的庆典活动。
+                \n        期间，亚典耀大学校长Jose Ramon T. Villarin, S.J.神父、我校颜光美副校长和理事会中外方成员共同出席了孔子学院年度理事会，听取孔院年度工作报告。颜副校长充分肯定了亚典耀孔子学院的建设发展，赞扬了孔子学院中外方人员为对外汉语教育事业的辛勤付出。在孔子学院多年努力下，亚典耀大学于2016年设立国际汉语教育硕士项目，成为菲律宾唯一一个国际汉语教育硕士专业。
+                \n        今年适逢亚典耀大学孔子学院成立十周年，来自中国国内及菲律宾当地的逾600名观众参加了孔院举行的庆典音乐会。颜光美副校长代表中山大学罗俊校长宣读贺词，并将中山大学姚友毅教授专门创作的画作《岭南春色》赠予亚典耀大学孔子学院。颜副校长还与我校派往亚典耀大学孔子学院的17名志愿者进行了亲切交流。
+"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:src="@drawable/fangwenfeilvbing1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"
+                android:text="亚典耀大学孔子学院2016年度理事会参会人员"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        之后，颜光美副校长访问了菲律宾圣名大学。亚典耀大学孔子学院在圣名大学的汉语教学点将于2016年11月开始运作。
+                \n        陪同颜光美副校长访问亚典耀大学的有我校国际汉语教材研发与培训基地主任周小兵，外国语学院副院长张世涛，国际合作与交流处副处长、孔子学院办公室常务副主任古文力等。
+                \n相关背景：
+\n        我校与亚典耀大学于2006年正式建立合作关系，同年10月，亚典耀大学孔子学院挂牌成立，为我校在海外合作共建的第一所孔子学院，也是菲律宾第一所孔子学院。其一直发挥着中菲友谊桥梁的作用，如今已在菲律宾各界具有广泛影响力。
+"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/huijianzhuxi"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="315dp"
+                android:layout_height="50dp"
+                android:gravity="center"
+                android:text="李萍副书记会见法国普罗旺斯—阿尔卑斯—蓝色海岸大区主席一行"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        10月19日，学校党委副书记李萍在广州校区南校园中山楼贵宾厅会见法国普罗旺斯—阿尔卑斯—蓝色海岸大区主席埃斯特罗斯一行。
+                \n        李萍副书记欢迎埃斯特罗斯主席一行来访我校，并向主席介绍了我校未来发展概况和我校与法国高校合作交流情况。她表示，我校与法国普罗旺斯—阿尔卑斯—蓝色海岸大区的高校已有良好的合作基础，希望未来双方能开展更多双赢的合作与交流项目。
+                \n        埃斯特罗斯主席感谢我校的接待，主席先生表示，法国普罗旺斯—阿尔卑斯—蓝色海岸大区的高校各有优势，希望能推动大区的高校与中山大学合作，并且非常支持大区所有大学的学生前来中大学习及中大的学生前往大区大学学习。
+"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:src="@drawable/huijianzhuxi1"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        我校旅游学院副院长罗秋菊教授，药学院杨得坡教授，国际合作与交流处处长赵勇及法国驻广州总领事傅杰伟先生等也参加了会面"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/lundundaxue"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="50dp"
+                android:text="伦敦大学校长一行访问我校"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        7月2日下午，A大学校长谢平在江安校区行政楼300会议室会见了伦敦大学玛丽皇后学院院长Simon Gaskell一行。副校长世经，以及学校有关部门和学院负责人陪同会见。"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/lundundaxue"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        谢和平首先代表学校欢迎Simon Gaskell院长一行。他表示，A大学和伦敦大学玛丽皇后学院在科学研究、学生联合培养等方面开展了多年的深入合作，取得了丰硕的成果。希望未来双方能在世界前沿科学领域开展更加广泛和深入的合作，共同培养出更多具有国际竞争力的优秀学生。谢和平对Simon Gaskell院长长期以来对A大学“实践及国际课程周”的关注和支持表示感谢。他说，搭建这个平台是为了让所有A大学子在校园内就能聆听到世界名校名师的课程，与世界一流大学的学生互动交流、彼此学习，开拓学生视野，启发创新思维，提升学生国际交往能力。目前“实践及国际课程周”已举办六届，吸引了世界数百所一流高校前来参加，未来A大学将进一步加快国际化的步伐，加强与世界一流大学的交流与合作。
+                \n        Simon Gaskell院长对A大学的热情接待表示感谢。他表示，A大学和伦敦大学玛丽皇后学院都是极负盛名的名校，多年来两校在材料科学、物理科学方面的合作日益密切，两校共建的中英联合材料研究所发展态势良好，取得了多项研究成果。希望未来双方能在更多领域开展深入合作，促进双方共同发展。
+"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/hanguodaxue"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="315dp"
+                android:layout_height="50dp"
+                android:text="韩国高丽大学副校长来访我校"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="         5月28日上午，韩国高丽大学国际事务副校长金善赫（Sunhyuk Kim）一行来访我校，朱熹平副校长在A楼贵宾厅与来宾进行了会面。我校政治与公共事务管理学院副院长郭忠华、国际合作与交流处副处长徐瑶等陪同出席了会谈。"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginTop="25dp"
+                android:src="@drawable/hanguodaxue1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:text="朱熹平副校长会见韩国高丽大学国际事务副校长金善赫（Sunhyuk Kim）"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        朱熹平对金善赫一行表示热烈欢迎，并简要介绍了我校在国际合作方面的情况。朱熹平表示，高丽大学与我校一直保持友好关系，学生交流项目的合作自2005年起有序稳定进行。希望在此基础上，两校能深化已有的合作，同时扩大合作的领域。
+                \n        金善赫表示很高兴到访我校，并介绍了高丽大学的总体情况。他表示，今年3月该校新一届领导团队就任后，特别关注与中国大学的合作交流，并将我校作为其在中国南部战略合作伙伴。他希望借此次会面，在现有合作基础上拓宽两校间的合作领域，加强各领域院系间的合作交流以及两校学者的交流互访。
+                \n        金善赫与郭忠华也进行了座谈，双方就如何深化两校院系间的合作进一步交换了意见。
+                \n        高丽大学创建于1905年，是韩国一所集理工、文学、艺术、商学和医学等多种学科于一体的私立研究性综合大学。2005年6月，我校与高丽大学签署校级交流协议，每年互派5名学生交流学习。两校的学生交换项目于2006年2月开始。金善赫教授于今年3月起担任高丽大学国际事务副校长，此次为首次访问我校。
+"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/ribenxuanba"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="50dp"
+                android:text="关于选拔我校学生2017年暑期赴日本参加冲绳文化体验项目的通知"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="         为加快我校的教育国际化进程，开拓学生视野，增长见识，我校拟组织20名学生于2017年暑假赴日本参加冲绳文化体验项目。我校是二松学舍大学在中国较早建立国际交流与合作的大学。两校自签订合作协议以来，每年互派教师与交换生进行学术交流与科研合作。"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        一、项目介绍
+                \n        二松学舍大学是于1949年开设大学教育的日本私立大学。 二松学舍大学设有文学部（国文学科、中国文学科）、国际政治经济学部（国际政治经济学科），大学院设有文学研究科（博士前、后期课程：国文学专攻、中国文学专攻）、国际政治经济学研究科。 设有文学和国际政治经济学两个学部、两个研究科、两个学科和两个专攻。
+                项目内容：濑底岛文化调查、濑底岛电影拍摄、体感游戏、冲浪体验、海滩志愿活动、音乐会、冲绳传统艺能欣赏等各类体验
+                \n        日程安排：
+                \n        9月6日 上海出发，抵达那霸（冲绳首府）
+                \n        9月7日 参观首里城、美浜美国村，赴名护（宿名护）
+                \n        9月8日 名樱大学听课，参观美之海水族馆，濑底岛合同合宿（宿濑底岛）
+                \n        9月9日~11日  与二松学舍大学的学生集训（宿濑底岛）
+                \n        9月12日 返回上海
+                \n        选拔要求：
+                \n        1. 我校大一、大二、大三以及研究生一二年级的学生
+                \n        2. 申请者需具备一定英语能力
+                \n        二、项目费用：
+                \n        总费用约130000日元（8000元人民币）
+                \n        含：机票37000日元；冲绳住宿费 30000日元；上海、冲绳的餐费 21000日元；向导费  25000日元；冲绳的交通费  10000日元；上海住宿费  2000日元；保险  5000日元
+                \n        不含中国国内的交通费和签证服务费。
+                \n        请有意向报名同学于6月16日前填写A大学出国（境）留学申请表并交中文原始成绩单至国际处郭老师（行政楼1121房间），电子版申请材料发送到邮箱：1207117800@qq.com。
+                \n        咨询电话：国际交流与合作处
+                \n附件：
+                \n        附件1：A大学学生出国（境）交流项目申请表.doc
+                \n
+                \n                                           国际交流与合作处
+                \n                                            2017年6月13日
+"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/jianadaxaunba"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="50dp"
+                android:text="关于选拔学生2018年春季赴加拿大多伦多大学参加访学项目的通知"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="         一、项目介绍
+                \n         1. 多伦多大学简介
+                \n         多伦多大学 (University of Toronto)，始建于1827年，是加拿大的一所顶尖学府，也是世界范围享有盛誉的公立研究性大学。在2017年《美国新闻与世界报道》发布的全球大学综合排名中，多伦多大学排名第21位；在2016年QS世界大学综合排名中，多伦多大学排名第32位。同时，该校也是美国大学协会（北美大学联盟）中仅有的两所非美国学府之一。
+                \n         多伦多大学所处的城市多伦多，是加拿大第一大城市与北美第四大城市，也是世界著名的最多元化、最安全宜居的国际化大都市，拥有怡人的环境和高品质的生活。
+                \n         多伦多大学英语语言项目（English Language Program）隶属于多大的继续教育学院(School of Continuing Studies), 具备超过50年的丰富教学经验，形成了实用科学的教学方法。多伦多作为全球最多元化和宜居的城市之一，也为学生提供了无与伦比的语言学习环境。
+                \n         2. 访学时间及课程内容
+                \n         课程时间：2018年3月5日 – 6月22日
+"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="         二、选拔要求
+                \n         1. 仅限本校全日制在校生；且成绩优异、道德品质好，在校期间未受过纪律处分，身心健康，能顺利完成海外学习任务；
+                \n         2. 英语要求，具有良好的英语基础，无需提交托福雅思成绩，入学参加语言分级测试
+                \n         3. 家庭具有一定经济基础，能够提供访学所需学费及生活费；
+                \n         4. 通过全美国际教育协会的项目面试、加方大学的学术审核、以及我校院系及国际合作处的派出资格审核。
+"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="         三、项目申请录取方式和报名流程
+                \n         1.学生本人提出申请，在学校国际交流与合作处报名；
+                \n         2.同时登录项目选拔管理机构 -- 全美国际教育协会网站www.usiea.org填写《美国名校访学2018-2019学年冬春项目报名表》，网上报名的时间决定录取的顺序和安排宿舍的顺序；
+                \n         3.学生申请资料经初步审核后，参加面试确定预录取名单；
+                \n         4.学生提交正式申请材料并缴纳项目费用，获得学校录取及签证后赴美学习；
+                \n         5.首批项目申请截止日期：2017年10月25日，额满即止；如首批截止日到期仍有名额可根据实际情况安排补录。
+"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="         温馨提示：
+                \n         有意向参加项目的同学请及时办理护照【护照10年有效。1.户籍迁到学校的：身份证+200元； 2.户籍未迁入学校的：身份证+在读证明+200元。 流程：填表（自助填表机）--取照相号--照相室取相---复印所需材料---取受理号---受理（大厅内B区9、10号窗口）--收费（杭州银行窗口）---领取发票（14号窗口）。
+                \n         附件：
+                \n         附件1：A大学学生出国（境）交流项目申请表.doc
+                \n
+                \n                                             国际交流与合作处
+                \n                                             2017年6月29日
+"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

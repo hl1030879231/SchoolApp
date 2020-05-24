@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/title_two"/>
+
+    <ScrollView
+        android:id="@+id/birdknow"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="50dp"
+                android:text="A大学摆渡话剧团2017新作《知鸟》首演成功"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        2017年6月19日晚，A大学摆渡话剧团2017新作《知鸟》在讲堂观众厅连演两场，首次将A大学教授曹雪芹的同名原著呈上舞台，借由男主角知鸟在路上的经历，重回那个充满迷茫与犹疑、成长与梦想的闪光岁月。 "
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="15dp"
+                android:src="@mipmap/birdknow1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"
+                android:text="北大讲堂剧团2017力作《根鸟》首演剧照"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        少年知鸟第一次独自打猎偶然猎到了一只白鹰，它的腿上系着一根写着求救信的布条。根鸟又梦到了一个长满了百合花的峡谷，紫烟等着他去拯救。即使周围的人都不相信，就连他自己也充满疑惑，但因为这一个布条、一场梦，在父亲的支持下，根鸟离开了家乡菊坡，一路向西，寻找那开满百合花的大峡谷，由此踏上了解救“紫烟”的路。仿若《西游记》中西行历劫一般，根鸟一路上遇到了不同的人和事，有鼓励、有嘲笑、有牵绊、有情窦初开也有身陷绝境。 "
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="15dp"
+                android:src="@mipmap/birdknow2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"
+                android:text="《根鸟》首演剧照"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        一个少年要走过多少条路才能成长，抵达心中的彼岸。他不知道梦是什么，彼岸在何处，而全凭一腔热血偏执上路；天真地认为路在脚下，面对生存的艰难，才知道没有计划的上路是多么不可取；“梦想很丰满，现实很骨感”又让多少人半途而废，放弃了梦想；在多少嘲笑中坦诚原委，才知道无需向不理解你的人过多解释，要为自己的选择负责；被形形色色的人影响，或因为太善良而轻信坏人，也因为太善良而取信于人……在路上的时间久了，“最容易相信，也最容易忘记”。太苦、太累、太想家的借口让根鸟一朝放弃多年努力，踟蹰在安稳的菊坡，在米溪草坡与“山楂树之恋”幸福温暖地搁浅了前路，又在莺店享乐赌博喝酒说脏话的放纵中差点丢失未来。 "
+                android:textSize="15sp" />
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/closedance"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="50dp"
+                android:text="“走进中国民族民间舞蹈”举行"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        6月18日晚，A大学“艺术课堂”系列活动之“走进中国民族民间舞蹈”在文浩馆观众厅举行,人文学院舞蹈编导系讲师、江苏省舞蹈家协会会员张婷担任本次“艺术课堂”主讲人。
+                \n        课堂伊始，张婷为观众讲解了何为民族民间舞蹈。她指出，民族民间舞蹈可以统称为民间舞，是产生并流传于民间，受地理因素、历史传统、风俗文化、民族性格、生活方式、宗教信仰等众多因素而形成的丰富多彩、千姿百态的舞蹈。她介绍了民族民间舞蹈的艺术魅力、发展状况和我校中国民族民间艺术舞课程的教学情况。随后，张婷通过典型动作的示范与讲解具体展示了朝鲜族、傣族、维吾尔族、藏族、蒙古族五个少数民族的舞蹈，并采用“教师示范-学生示范-教师指导”的方式指出了每种舞蹈的动作要领。
+                \n        讲解完毕后，张婷携其学生为大家分别展示了这五个民族的舞蹈艺术。随着人文学院音乐系讲师徐嫣悠扬悦耳的钢琴伴奏声，首先登场的是朝鲜族民间舞，舞者们的舞姿柔婉袅娜，如仙鹤展翅、柳枝拂水，引来现场观众的阵阵掌声。随后，婀娜多姿的傣族民间舞又让人不由得想起优雅高贵的孔雀。维吾尔族民间舞节奏轻快、热情豪放，随着舞者裙摆的旋转起伏，现场的气氛也达到了高潮。藏族民间舞重视运用气息带动脖部的屈伸和脚上的步伐，并贯注全身，因此舞者的舞姿流畅连贯，一气呵成。最后，张婷与学生们共同表演了轻捷洒脱而又不失扎实稳重的蒙古族民间舞，在一片喝彩声中，本次“艺术课堂”圆满落幕。
+                \n        此次“艺术课堂”不仅让我校师生了解了我国民族民间舞蹈的相关知识，领略了其艺术魅力，还有利于师生们提升文化修养，陶冶艺术情操，同时促进民族文化的传承发展。
+"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="15dp"
+                android:src="@mipmap/closedance1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"
+                android:text="“艺术课堂”现场"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/dragon"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="50dp"
+                android:text="端午，与你粽有缘”消费体验活动在我校举办"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        5月26日上午，“端午，与你粽有缘”消费体验活动在我校第二食堂举办。此次活动由市委宣传部、市委网信办、市消费会、市放心办、市工商局主办，无锡穆桂英、校党委宣传部、后勤管理处、国际教育学院协办，旨在把课堂拓展到现实生活中，带领留学生了解中国传统文化和传统习俗。
+                \n        活动准时开始。首先，主办方代表上台讲话，介绍了手工香囊、雄黄酒的制作方法以及端午节的意义和习俗。接着，两位来自“无锡穆桂英”的老师傅为同学们讲解包粽子的方法与技巧，“包粽子需要注意，将糯米放进漏斗形状的粽叶里时不要太满，用手压一下。最后用棉线将粽子缠起来，力道不用太大，以粽子不会散架为准。”留学生们围着两位师傅认真学习包粽子的技巧和方法，跃跃欲试，看着自己亲手包成的粽子喜笑颜开。一位留学生微笑着说:“包粽子需要耐心和细心，非常有趣，中国文化很有吸引力。”随后，留学生们为大家带来了文艺表演——钢琴独奏、二胡独奏和冬不拉独奏，场面十分热闹。
+                \n        此次“端午，与你粽有缘”消费体验活动使留学生近距离接触中国传统习俗，增进了留学生们对中国传统文化的理解，促进了文化交流。
+"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="15dp"
+                android:src="@mipmap/dragon1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"
+                android:text="“端午，与你粽有缘”消费体验活动现场"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/brush"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="50dp"
+                android:text="曲修诚：大成丹青手 妙笔桃源意"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        中国书画之所以绵延数千年而不息，自有其民族精神贯穿其中矣！其笔墨语言符号及画面构成之形式，一时有一时之风气也。山水画自分科以来，自王摩诘始文人为其主流，累世发展至今，可谓名家辈出势若群星，虽体势多变，风格多元，然皆以心为炉，熔自然万物为一体，物我相融，崇尚天真，抒发襟怀，以独立高迈之人格与冲淡简静之心态而浑然成其艺术魅力！
+                \n        写自然之性，亦写吾人之心为其大同之意境也！
+"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="15dp"
+                android:src="@mipmap/brush1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"
+                android:text="曲修诚"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        吾兄曲先生修诚，生于齐鲁之地，蒙养孔孟之礼，修心释老之道，心耿耿而情敦厚，其少而习静，喜观羽甲鳞虫旦夕之幻，山川草木四时之变，于是乎万物了然于胸矣！兄习书始于学前之龄，寒来暑往，年愈长而情愈笃，四体皆能更兼以铁笔之术！声名见闻于同道中人及国展、兰亭奖之榜首，忝为最具收藏潜质的十大书家之列耳！书名日盛，书坛共睹！
+                \n        其画二十年前自花鸟入手，初不示人，盖以自娱为乐也。及居京，翰墨丹青之友常相从游，识见日长，眼见日宽，兴趣日增，由是慕张先生志民导师之名，投帖相随，蒙师厚德，记名门下。张先生画风，构图诡异奇而安，其点画狼藉苍茫，简淡而意远，线条纵横之间干笔渴笔反复叠加，故得浑厚之象，色墨交融有韵外之致！丘壑无言具大千之象也。修诚兄从其学，亦具师之气象也！
+"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="15dp"
+                android:src="@mipmap/brush2"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"
+                android:text="曲修诚书画作品"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/family"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="50dp"
+                android:text="我校“好家风好家训”书画展开展"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        家训传家风，笔墨颂真情。6月27日上午，A大学“好家风好家训书画展”开展。此次展览由学校工会、妇委会、文明办及纪委办公室联合主办。原校纪委书记、校书画研究会会长张丽，校纪委副书记林为，校工会常务副主席宋轶，校团委书记毕洁丽，宣传部副部长张红英，统战部副部长来亦，校工会副主席李雪峰、秦梅和有关部门工会主席、妇委会主任，书画研究会老同志以及教职工代表到场观看展览。
+                \n        校书画研究会对此次活动给予大力支持，他们书写了许多名人的家风家训、格言警句等。如原校党委书记吴宣恭书写的诸葛亮诫子书，原纪委书记、校书画研究会会长书写的校主陈嘉庚家训“仁义莫交财”，原校工会主席书写的毛泽东给儿子毛岸青、毛岸英的家书等。
+                \n        展示作品中有一部分是书画研究会老师书写赠送给我校市级“最美家庭暨五好文明家庭”周绍民家庭和部分银婚夫妇家庭的“最美家训”——“善良诚实做人，本分正直做事”“责任”“仁厚博爱、芳留桃李”“比翼双飞”等 ，引来许多参展的人驻足观看，合影留念。
+                \n        教职工及家属则用书法、国画、彩笔画、禅绕画等多种形式展现“好家风好家训”，展示我校教职工家庭深厚的文化修养、爱国爱家情怀以及对子女的谆谆教诲之道。值得一提的是来自教职工子女的作品，他们用充满童真童趣的作品表达了他们对“家风家训”的理解，整个画展充满了温馨和谐、生机勃勃的氛围。
+                \n        为纪念中国共产党成立96 周年，深入贯彻落实习近平总书记关于家庭建设、家风建设的系列重要讲话精神，大力弘扬中华传统家庭美德，学校组织开展“好家风好家训”书画展活动，活动旨在引导广大教职工特别是党员干部积极践行社会主义核心价值观，带动更多家庭见贤思齐、向善向美，传承好家训、弘扬好家风，推动我校“最美家庭”建设，营造温馨美好、和谐文明的校园氛围，迎接党的十九大胜利召开。
+                \n        据悉，本活动共展出教职工及家属的书法、绘画作品70多件，展览将持续到7月2日，欢迎广大教职工前往观看。
+"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/concent"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="50dp"
+                android:text="A大学“艺术课堂”之“乐吟江南——古诗词赏析演唱会”举行"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        5月16日晚，A大学“艺术课堂”系列活动之“乐吟江南——古诗词赏析演唱会”在文浩馆观众厅举行，人文学院声乐副教授、中国音乐家协会会员王芳担任本次“艺术课堂”的主讲人。此次“艺术课堂”别具一格地采用诗、词、乐、舞相结合的方式，为现场数百名观众带来了一场唯美的视听盛宴。
+                \n        课堂伊始，主讲人王芳带领着天使文化艺术中心和童心艺术中心的孩子们为大家带来了一首动听的汉乐府民歌《江南》。唱毕，王芳向大家介绍了古诗词歌曲这一独特的音乐形式。她提到，我国古诗词歌曲一般分为两种，一种叫古词古曲，即古人作词，由古人作曲；另一种叫古词新曲，为古人作词，今人作曲。本次“艺术课堂”的曲子中，《杏花天影》为古词古曲，其余十一首皆为古词新曲。十二首歌曲的演唱婉转悠长，余韵邈然，现场观众无一不沉浸其中。其中，为致敬邓丽君，人文学院副教授、青年歌唱家钱琳演唱了其两首歌曲《虞美人》和《相见欢middot无言独上西楼》。钱琳的歌声婉转低回，衬托出了淡淡的忧伤和朦胧的意境，让人听得如痴如醉。王芳饱含深情地演绎了李清照的《如梦令》，优美的歌声和箫声、古筝声以及舞蹈完美地融合在一起，引得台下阵阵掌声。琴歌《杏花天影》的演绎中，江苏省古琴学会理事吴炯的古琴演奏令人赞叹不已。在演唱《板桥道情》时，江苏省优秀戏剧人才姜雪峰左手持简板，右手托渔鼓，边演唱边有节奏地打着拍子，让观众们感受到了诗词、声腔与韵律的巧妙结合。最后，在众人合唱的伴奏下，无锡市朗诵艺术学会会长肖鹏现场朗诵了白居易的《忆江南》，本次“艺术课堂”圆满结束。
+                \n        本次古诗词赏析演唱会将古诗词与音乐完美融合，让广大师生进一步体会到了江南文化秀美、富饶、雅致的艺术特色，深入领略到了古诗词的独特魅力，感受到了中华优秀传统文化的强大力量。
+"
+                android:textSize="15sp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

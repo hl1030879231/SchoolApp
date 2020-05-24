@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_two"/>
+
+    <ScrollView
+        android:id="@+id/s_biye"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="35dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:text="毕业季，A大学子书雄章"
+            android:textStyle="bold"
+            android:gravity="center_vertical"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="25dp"
+            android:gravity="center_vertical"
+            android:textSize="15sp"
+            android:text="2017-6-6       标签:    毕业 典礼 活动"/>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="        莘莘学子自天南海北相聚A大，山高水长，鲲鹏试翼，大学之学，便由此发轫。求学数年，中大学子以笃行为纸笔，书就青春轮廓；以博学为基石，试攀拏云之所，一步一个脚印，书写下灿烂年华的篇章。毕业季，这不仅是一个离别的季节，也是一个扬帆起航的季节，更是同学们学而成才，回报母校、回报社会、回报祖国的季节。毕业生们在求学之路上下求索，现在他们来到这个最触动人心、最庄严神圣的时刻，在毕业典礼上为自己的大学生涯画下圆满的句点。"
+            android:textSize="18sp"
+            android:lineSpacingExtra="5dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/biye_one"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="庄严的毕业典礼"
+            android:gravity="center"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/biye_two"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="击一个掌吧，祝你前程似锦"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="        数据科学与计算机学院的本科毕业生孙鑫即将前往北京大学深造，通过四年的专业学习，他找到自己兴趣所在，明晰了未来的发展方向，也明确了自身的责任：“中大的校训、师长的教导，教会我应具有开拓的视野和宽广的胸怀，也告诫我要不懈努力提升自我，为社会做出贡献。”他的同窗室友孙云起手持学位证书，也不无感慨，“德才的培养离不开师长的教诲，专业学习与训练则磨练了我的意志，把严谨细致作为一种追求，使我在生活和工作中受益匪浅。作为青年学子，我们始终心系母校、心怀家国。”
+            \n        地理科学与规划学院的硕士曾红平十分感谢学院的培养。“在中大学习的这几年，师门对我影响非常大，老师和同门学友都给了自己很多帮助。我已经在工作岗位入职，今天是专门请假来参加毕业典礼，就是因为很想和同学们一起感受毕业的氛围。毕业典礼很隆重，在毕业的时刻能够得到校长的祝贺，我感到很激动。”
+"
+            android:textSize="18sp"
+            android:lineSpacingExtra="5dp"/>
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="200dp"
+            android:layout_marginTop="25dp"
+            android:src="@drawable/biye_three"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:text="黎孟枫副校长主持第二天仪式"
+            android:gravity="center"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="35dp"
+            android:text="        走下主礼台，环境科学与工程学院硕士毕业生林文婷和裴金铃两人难掩激动和兴奋，交流着跟校长握手的瞬间，“感觉在台上的时间一下子就结束了，”裴金铃是第一次参加中大的毕业典礼，“非常庄重，而且典礼的仪式感真的很棒！”林文婷本科时已经历过中大的毕业典礼，她打趣道：“最大的不同是拿到的毕业证颜色也不一样了。回头一想，在中大度过的六年仿佛只是一眨眼。我最感谢的是学校对我们综合能力的培养，不是单一的，而是多元化的。”
+            \n        环境科学与工程学院硕士毕业生王文峰下台后，声音的颤抖还难以控制：“在台上时，我无法掩饰心情的激动，罗俊校长是那么的亲切，我忍不住抓紧了他的手，握了又握。”六年以来在环境科学与工程学院本科、硕士的学习，让他从一个懵懂的少年，成长为一个沉稳有担当的毕业生。在学习过程中，王文峰找到了自己感兴趣的研究方向，对它的感情日益深厚。“上台的那一刻，我想到，终于到了这一天，可以将学到的专业知识应用于实践，可以大展身手，将自己所学贡献给祖国社会。””
+"
+            android:textSize="18sp"
+            android:lineSpacingExtra="5dp"/>
+
+    </LinearLayout>
+</ScrollView>
+    <ScrollView
+        android:id="@+id/s_xinsheng"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="35dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="新生开学指南和注意事项"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:text="2017-8-6       标签:    开学 注意事项"/>
+
+
+            <TextView
+                android:id="@+id/textView14"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:lineSpacingExtra="5dp"
+                android:text="导语：大学新生入学需要准备些什么?大学新生入学是令人期待是事情，马上又是一年大学新生入学时，在这个时候应该早作准备，面临人生新的起点，新的生活，怎样才能更快更好的融入大学生活呢?大学新生就要迈向向往已久的高校大门.在准备行囊的时候，顺便跟着英语网小编，了解大学新生入学指南：准备篇吧……"
+                android:textSize="18sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/xinsheng"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="4dp"
+                android:text="新生开学"
+                android:gravity="center"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:layout_marginTop="30dp"
+                android:textSize="19sp"
+                android:text="大学新生入学须知"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="        进入大学，就是一个新的环境，接触新的人，你的所有过去对于他们来说是一张白纸，这是你最好的重新塑造自己形象的时候，改掉以前的缺点，以全新的形象出现。
+                \n        对于大学新生来说，离开熟悉的生活学习环境，离开父母每日的叮咛呵护，离开深有感情的老师和同学的指导和帮助，踏入一个全新的环境，难免心中会有几分激动，也会有几分忐忑，如何尽快熟悉并适应新环境是走进象牙塔的首要任务，决定了大学新生能否在这个环境中自如地生活、学习。
+"
+                android:textSize="18sp"
+                android:lineSpacingExtra="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textSize="19sp"
+                android:layout_marginTop="10dp"
+                android:text="大学新生入学须知通用版本"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="15dp"
+                android:text="         1、所谓家有家规、国有国法，每个学校也会有自己的一些规章制度，它规定了学生一些不能触犯的禁区，比如缺课达到多少节就会被处罚、图书证不能外借等。有时候犯错和不犯错之间只有一步之遥，学生也不是故意的只是不知道。所以了解学校的规章制度是新生最需要做的事情。
+                \n        2、熟悉学校的地形、掌握一些紧急联系方式也是非常必要的。比如学校的教学楼、图书馆的分布，医务室、保安室所在等。
+                \n        3、关注学校和院系公布的最新信息，比如新生何时可以申请奖学金、助学金等，学生一旦错过了这个时间就等于放弃了自己的权利。记住自己的学号和相关密码，这些会是你以后的学习中经常需要用到的东西。
+                \n        4、了解本学期的课程安排和执教老师。大学的课程内容和上课方式，对比高中来说有很大的不同。老师不太会拘泥于课本内容，更多的是根据自己的研究来讲授，所以准备好听课笔记是非常必要的，而且大学的考试卷多为任课老师所出，所以考试内容有很多是和课堂老师补充的知识有关。
+                \n        5、大学还有一点和高中明显不同的是，上课教室不是唯一固定的，而是根据不同的课程安排在不同的教学楼。所以学生在开学之初，完整的打印出课程表，并按照课程表上的上课地点事先去探一下路是很有必要的。以往新生因为找不到教室而上课迟到的例子并不鲜见。"
+                android:textSize="18sp"
+                android:lineSpacingExtra="5dp"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/s_junxuan"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="35dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="新生军训指南"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:text="2017-9-15       标签:    军训 活动"/>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="1.军训装备"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:text="        检查军训服装，如：军帽、帽徽、腰带等。一个都不能少，不然被教官看到会被罚的。
+                \n        衣服一定要常换洗自己的衣服，里面一定要穿一个吸汗好的背心，不然你的衣服会出白色盐会画上图案的。鞋子如果没有统一要求，要穿运动鞋，因为运动量比较大这样穿着会舒服。
+                \n        不管是不是统一发，鞋子里面垫一双舒服的鞋垫，这样脚底板会舒服点。
+"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:src="@drawable/junxun"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="新生军训"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="2.饮食类"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:text="         军训后体力较大，要多吃一些肉类、蛋类，最好还多喝点汤菜类，同时注意补充各种维生素，才能好好的去军训。军训最好喝茶水、盐水最佳。不要做完较大运动量拼命喝水对身体肠胃不好。"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="3.防病类"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:text="         全身大汗淋漓后做完运动后，不要马上冲凉水澡，以免毛孔迅速闭合，体内热量不能散发而停留体内，引起高热。不要勤脱衣服，冷热交替也会造成感冒。"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="4.休息类"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:text="         军训期间调整好自己的作息，为了军训而做好每天的准备。"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="5.心态类"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:text="         最重要的是调节自己的心态，每次的训练不是在给别人看而是在磨练自己，这只是人生小小的困难，别人做到的自己一样可以做到。过后你会想想当时军训还是挺开心的。"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:textSize="18sp"
+                android:textStyle="bold"
+                android:text="6.中暑类"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:textSize="18sp"
+                android:text="         中暑后的症状是：面色苍白、大量出汗、头昏、耳鸣、眼睛发花、注意力不能集中、口渴、心慌、胸闷、脉博加快、全身无力。严重者：恶心、呕吐、四肢抽搐、呼吸困难、突然昏倒，甚至昏迷不醒。如果你有此症状，或是同学有这样的症状请提前告诉教官，不要硬撑，防止出意外。"/>
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/s_xuexiao"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="35dp">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="A大学简介和学校概况"
+                android:textStyle="bold"
+                android:gravity="center_vertical"
+                android:textSize="25sp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+                android:gravity="center_vertical"
+                android:textSize="15sp"
+                android:text="2017-7-25       标签:    学校 概况"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="25dp"
+                android:text="         A大学（A University）是教育部直属全国重点大学，国家“211工程”和“985工程”重点建设高校，是我国著名的高校之一。学校位于浙江省，创建于1906年，是中国近代历史较早的真正意义的综合大学，现有1个国家工程研究中心，17个省部级重点实验室和工程研究中心。博士后流动站有14个。A大始终注重人才培养、科学研究、社会服务、科学创新四大功能均衡发展，综合实力位居国内高校前列"
+                android:textSize="18sp"
+                android:lineSpacingExtra="5dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/xuexiao_one"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="A大学学生"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="        A大学具有人文社科和理医工多学科厚实基础，不断追求学术创新，以国际视野开放办学，现已形成了“综合性、创新性、开放性”的特色。学校坚持中国特色社会主义办学方向，坚持立德树人根本，以“德才兼备、领袖气质、家国情怀”为人才培养目标；以“面向学术前沿、面向国家重大战略需求、面向国家和区域经济社会发展”为基本导向；树立了“三校区五校园”错位发展、合力支撑的发展思路。学校正在努力推进由外延式发展向内涵式发展转变，由常规发展向主动发展转变，由文理医优势向文理医工各具特色、融合发展转变。现在，A大学正站在新的起点上，为建设成为“国内高校第一方阵、世界一流大学行列”的中国特色社会主义一流大学而努力奋斗！"
+                android:textSize="18sp"
+                android:lineSpacingExtra="5dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/xuexiao_two"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="A大学课堂"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="        办学总经费增长迅速：2016年学校决算总收入超过70亿元人民币。"
+                android:textSize="18sp"
+                android:lineSpacingExtra="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="        学科实力较强，影响力突出：学校有18个学科领域进入ESI世界前1%，学科领域数量位居国内高校并列第2位，其中有11个学科领域进入前0.5%，2个学科领域进入前0.1%。在第三轮全国学科水平评估中，学校33个参评学科有16个学科进入水平排名前5，32个学科进入水平排名前10。 "
+                android:textSize="18sp"
+                android:lineSpacingExtra="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="        师资力量雄厚：现有院士（含双聘）20人，长江学者特聘教授46人，杰青78人，高层次人才数量居国内高校前列。"
+                android:textSize="18sp"
+                android:lineSpacingExtra="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="        教育教学改革与建设效果逐步显现，人才培养质量高：拥有10个国家级人才培养基地，经济管理等多个本科专业通过了国内、国际认证。入选教育部的基础学科拔尖学生培养试验计划、卓越医学人才教育计划、卓越法律人才培养教育计划，与法国民用核能工程师教学联盟等国际一流大学开展的中外合作办学项目顺利通过相关国际认证。"
+                android:textSize="18sp"
+                android:lineSpacingExtra="5dp"/>
+
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/xuexiao_three"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:text="A大学课堂"
+                android:gravity="center"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="35dp"
+                android:text="        学生就业率（含国内外大学升学深造）、就业满意度等均居国内高校前列，毕业生基础扎实、发展后劲强：超过一半的本科毕业生在国（境）内外高水平大学继续深造，毕业研究生主要前往高等院校、科研机构、医疗单位等事业单位就业；在校生在ACM国际决赛、国际遗传工程机器设计竞赛（iGEM）、世界大学生超级计算机竞赛、GMC国际企业管理挑战赛、“挑战杯”全国竞赛优胜杯、美国数学建模竞赛、全国数学建模竞赛、全国高等医学院校大学生临床技能竞赛、“中国研究生创新实践系列大赛”等学科竞赛中成绩优异，连续七年（2011-2017年）参加全国高等医学院校大学生临床技能竞赛，获得特等奖4次，一等奖1次，二等奖1次。"
+                android:textSize="18sp"
+                android:lineSpacingExtra="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="        科研竞争力大幅提升：2016年科研总经费突破20亿元大关，位列全国高校第五。截至2017年，学校获得国家重点研发计划项目20项，建有一批有科技创新能力和学术影响力的科研平台。"
+                android:textSize="18sp"
+                android:lineSpacingExtra="5dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:text="        医疗规模和实力居全国领先行列：拥有10家直属附属医院（其中7家综合医院，3家专科医院）。在复旦大学医院管理研究所发布的2015年最佳医院排行榜（综合）中，有1家附属医院进入前10，共有4家附属医院进入前50；2015年最佳专科排名37个专科榜单中，共有5个专科连续七年进入排名前5，20个专科进入排名前10。"
+                android:textSize="18sp"
+                android:lineSpacingExtra="5dp"/>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

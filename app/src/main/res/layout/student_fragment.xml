@@ -1,0 +1,507 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/titlethree"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@color/white"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/sch_message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_sch"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:textColor="#9b9a9a"
+                android:gravity="center"
+                android:text="学院信息"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+        <!-- <ImageView
+            android:layout_width="25dp"
+            android:layout_height="match_parent"
+            android:src="@drawable/fg_two"/>-->
+        <LinearLayout
+            android:id="@+id/stu_message"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/text_stu"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:textColor="#9b9a9a"
+                android:text="学生信息"
+                android:textSize="20dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ScrollView
+        android:id="@+id/sch_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@color/background_sch_layout"
+            android:gravity="center_horizontal"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/intro_sch"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/r_cornre_intro"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/sch1" />
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="学 院 介 绍"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/line5"/>
+
+                </LinearLayout>
+
+
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/sch2"
+                        android:background="@drawable/r_corner_img"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/intro_major"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/r_cornre_intro"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/maj1" />
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="专 业 介 绍"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+                    <ImageView
+                        android:id="@+id/imageView6"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/line5" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#20d7ddfb"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="38dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/maj2" />
+
+                        <TextView
+                            android:layout_width="160dp"
+                            android:layout_height="35dp"
+                            android:gravity="center"
+                            android:text="视觉传达设计专业"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView17"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:lineSpacingExtra="5dp"
+                        android:padding="10dp"
+                        android:text="        本专业旨在培养面向未来，具有熟练掌握视觉传达技术语言，能够在平台媒体与新数字媒体上进行视觉设计创作、开发以及设计研究能力的高级综合性人才。"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/intro_major2"
+                android:layout_width="310dp"
+                android:layout_height="200dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/r_cornre_intro"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="center_vertical"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="30dp"
+                        android:layout_height="30dp"
+                        android:layout_marginLeft="15dp"
+                        android:src="@drawable/maj1" />
+
+                    <TextView
+                        android:layout_width="90dp"
+                        android:layout_height="30dp"
+                        android:gravity="center"
+                        android:text="专 业 介 绍"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/line5"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#20d7ddfb"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="38dp"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="35dp"
+                            android:layout_height="35dp"
+                            android:src="@drawable/maj2" />
+
+                        <TextView
+                            android:layout_width="160dp"
+                            android:layout_height="35dp"
+                            android:gravity="center"
+                            android:text="环境设计专业"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/textView18"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="5dp"
+                        android:lineSpacingExtra="5dp"
+                        android:padding="10dp"
+                        android:text="        本专业旨在培养具有进行建筑、景室内设计开发能力的专业高级人才。本专业学生在校学习期间掌握较全面的建筑环境设计理论知识并具有较强的实践能力。"
+                        android:textSize="15sp" />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/stu_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone"
+        android:orientation="vertical">
+    <LinearLayout
+        android:id="@+id/timetable"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="25dp"
+        android:gravity="center_vertical"
+        android:background="@color/white"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/stu1"/>
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:gravity="center|left"
+            android:layout_marginLeft="25dp"
+            android:text="学 生 课 表"
+            android:textColor="@color/text_black2"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/jt_r"/>
+    </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"/>
+    <LinearLayout
+        android:id="@+id/achievement"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView4"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/stu2"/>
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:gravity="center|left"
+            android:layout_marginLeft="25dp"
+            android:text="学 生 成 绩"
+            android:textColor="@color/text_black2"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/jt_r"/>
+    </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"/>
+    <LinearLayout
+        android:id="@+id/stu_watch"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView5"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/stu3"/>
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:gravity="center|left"
+            android:layout_marginLeft="25dp"
+            android:text="学 生 监 督"
+            android:textColor="@color/text_black2"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/jt_r"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/lecture"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/stu4"/>
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:gravity="center|left"
+            android:layout_marginLeft="25dp"
+            android:text="讲   座"
+            android:textColor="@color/text_black2"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/jt_r"/>
+    </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"/>
+    <LinearLayout
+        android:id="@+id/game"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/stu5"/>
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:gravity="center|left"
+            android:layout_marginLeft="25dp"
+            android:text="竞   赛"
+            android:textColor="@color/text_black2"
+            android:textSize="20sp"
+            android:id="@+id/textView5" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/jt_r"/>
+    </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"/>
+    <LinearLayout
+        android:id="@+id/price"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/stu6"/>
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:gravity="center|left"
+            android:layout_marginLeft="25dp"
+            android:text="获 奖 情 况"
+            android:textColor="@color/text_black2"
+            android:textSize="20sp"/>
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/jt_r"/>
+    </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"/>
+    <LinearLayout
+        android:id="@+id/corporation"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/white"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_marginLeft="35dp"
+            android:src="@drawable/stu7"/>
+
+        <TextView
+            android:layout_width="115dp"
+            android:layout_height="40dp"
+            android:layout_marginLeft="25dp"
+            android:gravity="center|left"
+            android:text="社 团 活 动"
+            android:textColor="@color/text_black2"
+            android:textSize="20sp"
+            android:id="@+id/textView4" />
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="35dp"
+            android:layout_marginLeft="100dp"
+            android:src="@drawable/jt_r"/>
+    </LinearLayout>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:src="@drawable/line"/>
+    </LinearLayout>
+</LinearLayout>

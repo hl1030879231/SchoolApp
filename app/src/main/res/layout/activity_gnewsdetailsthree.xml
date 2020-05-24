@@ -1,0 +1,401 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <include layout="@layout/title_two"/>
+
+    <ScrollView
+        android:id="@+id/speech"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="315dp"
+                android:layout_height="50dp"
+                android:text="“同乐汉语演讲比赛”在我校举行"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        为进一步展示Z人文环境的无穷魅力，凸显中华语言文化的博大精深，由Z省人民政府新闻办公室、Z省教育厅、Z省人民政府外事办公室主办，Z省广播电视总台承办，无市委宣传部、我校党委宣传部、人文学院协办的“2017同乐汉语演讲比赛”南赛区晋级赛于5月18日下午在北区大学生活动中心举行。
+                \n        Z省委宣传部副部长、Z省委对外宣传办公室、Z省人民政府新闻办公室主任司锦泉，校党委副书记戴月波，无市委宣传部副部长蔡文煜，Z省委宣传部外宣处处长宣云凤、Z省教育厅国际合作与交流处调研员俞晓南，我校党委宣传部、人文学院、国际教育学院等相关部门的领导到场观看了比赛，并为获奖选手颁奖。
+                \n        来自美国、俄罗斯、日本、韩国、哈萨克斯坦、印度尼西亚、缅甸、西班牙、丹麦等十九个国家的25名外国留学生同台竞技、大秀汉语，角逐赴南京的全省总决赛资格。比赛以“我与中国”、“我与汉语”和“我的中国梦”等为主题，以演讲的形式展示留学生在中国的学习生活以及与汉语的“不解之缘”。本场汉语演讲比赛邀请了我校人文学院教授、吴文化研究首席专家庄若江，南京大学教授、教育部留学生教育学术委员会委员程爱民，南京信息工程大学国际教育学院王苏春院长，南京艺术学院国际教育学院奚协副院长，无锡广播中心业务指导、主任播音员、无锡朗诵艺术学会会长肖鹏担任评委，并进行现场点评。
+                \n        二十五位选手每人三分钟的演讲时间，五位嘉宾评委根据演讲内容、语言表达、流利程度、演讲技巧和仪表形象等五个方面对选手进行打分，比赛成绩最终按总分高低排序。本次演讲赛设一等奖2名、二等奖4名、三等奖8名。一等奖选手将直接晋级6月份在南京举行的总决赛。
+                \n        本次演讲比赛适逢“一带一路”国际合作高峰论坛在北京召开，参赛选手中有多位来自一带一路沿线国家，他们饱含深情讲述留学生眼中的中国梦，一带一路对世界的影响，选手们流利的汉语、感人的故事、真挚的情感、精彩的才艺展示不时赢得现场各国观众的阵阵喝彩。比赛现场江南大学人文学院和国际教育学院学生还带来合唱《雨中行》、二胡独奏《蒙风》、舞蹈《哈萨克舞》等文艺演出。别开生面的形式、不同文化的交流，打造了一场充满江苏元素的汉语推广大赛。
+                \n        最终，经过激烈的角逐，来自我校的美国留学生张琪、来自常州工学院的印度尼西亚留学生范毅杰荣获一等奖。我校参赛的另外五名选手还分获二等奖1名，三等奖2名，优秀奖1名。
+"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="180dp"
+                android:layout_marginTop="15dp"
+                android:src="@drawable/speech1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"
+                android:text="选手精彩展示"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/play"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="50dp"
+                android:text="黄仕忠主编的大型珍稀戏曲文献获一等奖"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        我校中国古文献研究所所长黄仕忠教授主编的《清车王府藏戏曲全编》，及其与东京大学东洋文化研究所所长大木康教授合作编集的《日本东京大学东洋文化研究所双红堂文库藏稀见中国钞本曲本汇刊》，同时获2013年度全国优秀古籍图书奖一等奖。黄仕忠教授近十余年一直致力于海外藏中国戏曲俗曲文献的调查、寻访与研究，尤以对日本所藏中国曲学文献搜罗研讨最为深入。同一单位、同一主要作者，在同一时间获两项全国优秀古籍图书奖一等奖，这在学术界也是不多见的。这是对我校中国古文献研究所师生长期致力于基础文献整理工作的肯定。"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="15dp"
+                android:src="@mipmap/play1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"
+                android:text="《清车王府藏戏曲全编》"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        《清车王府藏戏曲全编》于2013年8月由广东人民出版社出版，全书共20册，1147万字，是迄今为止规模最大的通俗曲本整理工程。这是全国高等院校古籍整理研究工作委员会的重点项目，并获国家社科出版基金重点资助，黄天骥教授、刘烈茂教授任顾问，黄仕忠教授任主编，由我校中国古文献研究所师生共同完成。此课题自1995年立项，历经十八载，有近百人参与了校勘整理工作。
+                \n        所谓的“车王府曲本”，是指原由清代北京“车”姓蒙古王府收藏的俗曲文献，几乎囊括了道光至清末北京地区的演剧与说唱文本，是研究清代戏曲及俗文学的重要宝库。王季思先生称车王府曲本的发现，堪与安阳甲骨、敦煌遗书的发现相媲美。这些曲本在1925年秋流入书肆，由俗文学家马廉主持为孔德学校购藏，随后由顾颉刚先生编制了目录。顾颉刚1927年后任教中山大学，又遣人完整地抄录了一套，收藏于中山大学图书馆。王季思先生从20世纪50年代开始，即以中大藏本为基础，组织人手整理编目，撰写提要。1983年，王先生创建中国古文献研究所，又安排教师，作为集体项目共同编校整理，其后有系列成果面世。故中山大学在车王府曲本整理研究方面的成绩，也是几代人几十年努力的结果。《清车王府藏戏曲全编》，汇集了现今散存世界各地的车王府旧藏戏曲文本，并且广泛收罗同类剧本，用作参校，从而整理出完善可读的文本。所收的每一个剧本前面均撰有解题，说明著录情况、故事内容、本事来源、现存别本、据以参校的版本等，极大地方便了读者的利用。此外，在编校体例、异体字处理等方面，亦有所创新，为民间抄本俗曲文献的整理校勘，提供了借鉴。
+"
+                android:textSize="15sp" />
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/MPAcc"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="50dp"
+                android:text="A大学代表队喜获2017年中国MPAcc学生案例大赛全国总决赛桂冠"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        6月11日，由全国会计专业学位研究生教育指导委员会、教育部学位与研究生教育发展中心主办，A大学承办的2017年案例中心杯中国MPAcc学生案例大赛（第四届）全国总决赛在管理学院国际会议厅举行。经过激烈的角逐，由蔡祥副教授指导的A大学代表队6666队喜获总冠军，管理学院蔡祥副教授获优秀指导教师奖，A大学代表队成员管理学院张任超同学获决赛最佳个人表现奖"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="15dp"
+                android:src="@mipmap/mpacc1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"
+                android:text="教育部学位与研究生教育发展中心赵瑜主任为总冠军团队中山大学6666队颁奖"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/deal"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="50dp"
+                android:text="我校在首届中国高校科技成果交易会上斩获佳绩"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        6月22至24日，以“跨越产学鸿沟、携手创新共赢”为主题的首届中国高校科技成果交易会（以下简称科交会）在A州举行，Z省人大常委会主任李玉妹、教育部副部长杜占元、Z省副省长袁宝成，我校校党委书记陈春声、副校长王雪华等领导出席活动并见证了“潼湖高校科技成果转化试验区”大学创新园项目签约仪式。
+                \n        大会包括展览展示、论坛会议和推介交易等各项活动。经过为期三天的精彩展示及专家评选，我校斩获佳绩，现场成功签约意向项目20余项、合同金额超过4500万，同时勇夺特别金奖、最佳路演奖、最佳交易奖、成果创新奖、优秀展示奖、优秀组织奖各1项，先进个人奖2项（详细名单附后）。此次参会参展加强了与企业需求的精准对接，进一步推动了我校产学研对外深化合作、服务地方实施创新驱动发展战略的相关工作，为全方位推动学校科技成果转移转化及产业化打下了坚实的基础。
+"
+                android:textSize="15sp" />
+
+            <ImageView
+                android:layout_width="280dp"
+                android:layout_height="180dp"
+                android:layout_marginTop="15dp"
+                android:src="@mipmap/deal1"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:textSize="12sp"
+                android:text="我校获优秀组织奖"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="附：获奖名单
+                \n        特别金奖：A大学附属第一医院刘小林教授团队“神桥系列产品开发”
+                \n        最佳路演奖：A大学附属第一医院刘小林教授团队“神桥系列产品开发”
+                \n        最佳交易奖：电子与信息工程学院谭洪舟教授团队“基于NB-IoT的多模低功耗广域物联网节点芯片及封装技术的研发”
+                \n        成果创新奖：A眼科中心高前应教授团队“ACM-1在眼科新生血管性疾病中的应用”
+                \n        优秀展示奖：A大学惠州研究院纪红兵教授团队“纳微胶囊技术”
+                \n        优秀个人奖：A医学院项鹏教授、科研院产学研处黄珍
+"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/design"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="50dp"
+                android:text="举办A大学2017年大学生多媒体作品设计竞赛的通知"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        为组织好A大学2017年大学生多媒体作品设计竞赛暨省第十六届大学生多媒体作品设计竞赛选拔赛（以下简称校多媒体竞赛），为浙江省第十六届大学生多媒体作品设计竞赛（以下简称省多媒体竞赛）选拔推荐优秀作品，现将本次校多媒体竞赛有关事项通知如下："
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text=" 一、报名
+                \n1、报名及作品提交方式
+                \n        各类参赛作品请在报名及作品提交时间内到A大学教务处进行报名和作品提交，同时将作品及报名表（附件1）打包发送至asdfcdmt@163.com（打包文件以作品类别—所属学院—作者姓名命名），注：如作品超过20MB无法上传，可在网上报名后直接将作品发送至邮箱。教务处报名方式：登陆A大学教务网活动网（http://10.1888.11.15/），输入用户名和密码（学生登录用的用户名和初始密码均为学生学号，登陆后可修改密码）→点击登录→选择竞赛入口→在竞赛列表中选择“A大学2017年大学生多媒体作品设计竞赛”→竞赛管理→竞赛报名，同时上传作品。如网站报名出现问题，请联系具体负责老师，联系方式附后。 如作品网上提交出现问题可于9月12日、9月13日两天将作品递交至艺术学院202办公室Z老师处，逾期视为放弃。
+                \n2、作品提交格式
+                \n        每个作品需单独建立一个文件夹，文件夹以作品类别—学院—作品名称命名。每个作品的文件夹中需分四个子文件夹。
+                \n        (1)要求提供作品运行文件、源文件、演示文件三种类型的文件，分别放于“运行文件”、“源文件”、“演示文件”三个文件夹中，报名表及说明文档电子稿以WORD格式文档放于“说明与支持”文件夹中。如不按照作品规范上交作品，大赛组委会将有权对其进行降级或取消其参赛资格。
+                \n二、竞赛内容及要求
+                \n1、作品类型及主题：
+                \n        •交互式课件：主题为“小学生安全教育”；
+                \n        •微课：教学内容限于“初中科学（浙教版）”，要求不少于5个视频，每个视频时间为3-8分钟（含3分钟、8分钟）；
+                \n        •网站：主题为“美丽乡村专题网站”；
+                \n        •平面：类型为海报，主题为“匠心”，要求为系列海报（不少于3幅作品）；
+                \n        •动画：主题为“母校记忆”（不含高校），片长5分钟以内（含5分钟）；
+                \n        •DV：类型限于DV短片，片长8分钟以内（含8分钟），主题为“承诺”；
+                \n        •移动应用：主题为“校园应用”，类型为APP。
+                \n2、所有参赛作品请严格遵守《作品规范》（附件2或查看竞赛网站http://dmtds.zjnu.edu.cn），对不符合作品规范要求的作品将予以降级或淘汰处理。
+                \n3、作品要求：
+                \n        (1)作品内容健康、科学、向上，有时代气息，体现创新意识。作品中不得出现学校、学院及指导教师等信息，一经发现，一律作违规处理。
+                \n        (2)所有作品须为我校学生的原创作品，不得侵犯任何第三者的知识产权、名誉权、隐私权等。对于剽窃、抄袭或组委会有合理理由怀疑其真实性的作品，竞赛委员会有权拒绝其参加比赛或撤销奖项，并通报作者所在学院；对于已参加过往届省级竞赛但未获奖的作品未经任何修改不得参加本次校级竞赛，对于已经获得省级竞赛奖项的作品也不得参与本次竞赛。
+                \n        (3)参赛作品不得含蓄意毁坏、恶意干扰、秘密截取或侵占任何系统、数据或个人资料的任何病毒、破坏程序、电脑蠕虫或定时程序炸弹等程序，否则将追究后果。
+                \n        (4)除非特别申明，学校对参赛作品拥有非赢利性的使用权。
+                \n        (5)关于参赛作品格式的详细要求详见附件1.浙江省第十六届大学生多媒体作品设计竞赛作品规范，历届省多媒体竞赛的获奖作品可在浙江省大学生多媒体作品设计竞赛网http://dmtds.zjnu.edu.cn查询。
+                \n三、奖励
+                \n        1、奖项设置
+                \n        本次校多媒体竞赛将邀请并组织相关专业专家进行评审，根据排名顺序确定奖项等级，竞赛共设一、二、三等若干，根据文件规定确定获奖队数。
+                \n        2、奖项公布
+                \n        获奖结果届时在教务处和艺术学院网页公布。
+                \n四、联系人及联系方式
+                \n        艺术学院      Z老师    联系电话： 151234566768
+                \n        教务处 马老师 联系电话624567
+                \n        附件1-2017年浙江省第十六届大学生多媒体作品设计竞赛报名表.doc
+                \n        附件2-2017年浙江省第十六届大学生多媒体作品设计竞赛作品规范.doc
+"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+    <ScrollView
+        android:id="@+id/phototake"
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="15dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            android:paddingTop="20dp">
+
+            <TextView
+                android:layout_width="305dp"
+                android:layout_height="50dp"
+                android:text="举办A大学2017年大学生摄影竞赛的通知"
+                android:textSize="18sp"
+                android:gravity="center"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        为推动我校公共艺术教育发展，丰富大学校园文化，鼓励学生用摄影作品讴歌“美丽中国”、展现对“中国梦”的追求与向往，引导我校学生中广大摄影爱好者提高摄影能力和创作水平，培养学生的创新意识和能力，决定举办A大学2017年大学生摄影竞赛暨Z省第6届大学生摄影竞赛选拔赛。具体通知如下："
+                android:textSize="15sp" />
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        一、竞赛主题
+   本届竞赛主题为“浙水”，旨在贯彻习近平总书记“绿水青山就是金山银山”的绿色发展理念，启发年轻学子的创造性、创新性思维，鼓励大学生用镜头见证我省“五水共治”的成果，以影像记录“创新、协调、绿色、开放、共享”发展理念的浙江实践。
+"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="        二、作品要求
+   专业组、非专业组投稿只接收静态摄影组照作品的JPEG格式电子影像文件，每幅照片长边不少于3000像素，纸质作品需电子化处理后以电子文档方式投送参赛。纪实类要求每组8幅～20幅，艺术类、商业类要求每组4幅～10幅，多张照片拼成1个图像文件的视为1幅作品，每组作品须提交300字以内的创作阐释及说明（创作阐释及说明中不得出现作者的学校名称和姓名）。
+   专业组、非专业组参赛作品由各参赛院校通过校内竞赛选拔，各校投稿总数不得超过40件。每一组中的每一类别投稿数量上限分别为10件, 每位参赛者投稿数量仅限1件（不含网络组、手机摄影组）。各校作品统一刻盘寄送或邮件发送至浙江省第五届大学生摄影竞赛秘书处，并提交参赛高校盖章的作品汇总表原件或PDF电子文件。
+"
+                android:textSize="15sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:lineSpacingExtra="8dp"
+                android:text="三、奖励
+                \n        1、奖项设置
+                \n        本次竞赛设一、二、三等奖各若干名；根据文件规定确定获奖队数。
+                \n        2、奖励
+                \n        获奖队由学校颁发获奖证书，获奖的同学可申请创新学分。
+                \n        3、学校将依据本次校赛的成绩来选拔参加省赛的学校代表队，省赛获奖奖励参照A大学学科竞赛奖励办法。
+                \n四、竞赛办公室联系方式
+                \n        联系人及联系方式：
+                \n        艺术学院        Z老师   电话：123477  15842346768（536768）  公室
+"
+                android:textSize="15sp" />
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

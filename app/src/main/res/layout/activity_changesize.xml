@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.schoolapp.Activity.personal.Activity_changesize">
+
+    <include layout="@layout/title"/>
+    <TextView
+        android:background="@color/background_changesize"
+        android:id="@+id/changesize_text"
+        android:gravity="center|left"
+        android:paddingLeft="20dp"
+        android:paddingRight="13dp"
+        android:layout_width="wrap_content"
+        android:layout_height="450dp"
+        android:textSize="15sp"
+        android:text="请你移动下面的滑块，来改变字体大小，以达到舒适的阅读体验。"/>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:background="@color/white">
+    <com.example.schoolapp.Other_class.SetTextSizeView
+        android:id="@+id/setTextSizeView"
+        android:layout_width="330dp"
+        android:layout_height="50dp"
+        app:totalCount="5"
+        app:lineColor="#a7a7a7"
+        app:circleColor="#d9d5d5"
+        app:circleRadius="13dp"
+        app:lineWidth="2dp" />
+</LinearLayout>
+
+</LinearLayout>

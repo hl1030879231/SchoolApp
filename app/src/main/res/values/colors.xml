@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="title_blue">#859afd</color>
+    <color name="me_blue">#99a9fa</color>
+    <color name="text_black">#454b67</color>
+    <color name="black">#000000</color>
+    <color name="text_black2">#333333</color>
+    <color name="background_home">#d7ddfb</color>
+    <color name="background_data">#50454b67</color>
+    <color name="background_sch_layout">#d7ddfb</color>
+    <color name="background_grade_title">#c6d0fc</color>
+    <color name="background_list_grades">#eaeefd</color>
+    <color name="background_changesize">#e3e3e3</color>
+    <color name="apptext">#859ccd</color>
+    <color name="gestureback">#f2f2f7</color>
+    <color name="intro_back">#f6f7ff</color>
+</resources>
